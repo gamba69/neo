@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle;
+namespace Neo\MainBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AppBundle extends Bundle
+class NeoMainBundle extends Bundle
 {
 }
