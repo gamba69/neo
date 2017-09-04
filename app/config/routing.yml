@@ -1,3 +1,4 @@
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
+neo_main:
+    resource: "@NeoMainBundle/Resources/config/routing.yml"
+    prefix:   /
+
