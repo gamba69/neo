@@ -1,4 +1,8 @@
 services:
-#    neo_main.example:
-#        class: Neo\MainBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
+
+    neo_main.neo_service:
+        class: Neo\MainBundle\Services\NeoService
+        arguments: [@doctrine.orm.entity_manager]
+
+    neo_main.parameters_conversion_service:
+        class: Neo\MainBundle\Services\ParametersConversionService

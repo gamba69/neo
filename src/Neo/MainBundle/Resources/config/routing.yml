@@ -1,3 +1,11 @@
 neo_main_homepage:
     path:     /
     defaults: { _controller: NeoMainBundle:Default:index }
+
+neo_main_hazardous:
+    path:     /neo/hazardous
+    defaults: { _controller: NeoMainBundle:Default:hazardous }
+
+neo_main_fastest:
+    path: /neo/fastest
+    defaults: { _controller: NeoMainBundle:Default:fastest }
